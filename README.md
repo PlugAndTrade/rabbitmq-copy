@@ -32,3 +32,11 @@ docker run -it --rm \
   -e RABBIT_TARGET_PASSWORD=<password-for-target-cluster> \
   rabbitmq-copy
 ```
+
+### Environment variables
+- RABBIT_SOURCE_HOST (mandatory)
+- RABBIT_SOURCE_USER (optional, defaults to "guest")
+- RABBIT_SOURCE_PASSWORD (optional, defaults to "guest")
+- RABBIT_TARGET_HOST (mandatory)
+- RABBIT_TARGET_USER (optional, defaults to "guest")
+- RABBIT_TARGET_PASSWORD (optional, defaults to "guest")
